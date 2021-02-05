@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tOeuXGdue2zAMBOrJcmwM8MtH1+bXYA3S39ouev4t+03s9XAqr3XJNtxtl0xAMOhpj0vz46wbKFi1eWXwuARdw==",
+  "dgSpecHash": "LT5vaMWNFpk+BiT8dJjoqFBJtqDwtoJkV2pq/TRWIJ0CtVadJI6ZaWHO5fv3nup7sjeistwkEgnXU1DFhk/bLA==",
   "success": true,
-  "projectFilePath": "D:\\ChristineLeDuc\\ChristineLeDuc\\ChristineLeDuc.csproj",
+  "projectFilePath": "D:\\ChristineLeDucFinal\\ChristineLeDuc\\ChristineLeDuc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Robbe\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Robbe\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

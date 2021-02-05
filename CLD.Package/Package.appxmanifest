@@ -9,7 +9,7 @@
   <Identity
     Name="07a7cc8c-9b1f-42fe-b8d8-1b10981fee18"
     Publisher="CN=Robbe Van den Hove"
-    Version="1.0.3.0" />
+    Version="1.0.5.0" />
 
   <Properties>
     <DisplayName>Customers Service</DisplayName>

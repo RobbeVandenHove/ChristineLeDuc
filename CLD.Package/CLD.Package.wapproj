@@ -64,6 +64,7 @@
     <AppInstallerUri>D:\ChristineLeDucFinal\Download</AppInstallerUri>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
     <EntryPointProjectUniqueName>..\ChristineLeDuc\ChristineLeDuc.csproj</EntryPointProjectUniqueName>
+    <AppxPackageDir>D:\ChristineLeDucFinal\Download\</AppxPackageDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <AppxBundle>Always</AppxBundle>

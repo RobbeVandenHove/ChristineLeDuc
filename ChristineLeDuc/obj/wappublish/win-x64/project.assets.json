@@ -885,11 +885,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ChristineLeDuc\\ChristineLeDuc\\ChristineLeDuc.csproj",
+      "projectUniqueName": "D:\\ChristineLeDucFinal\\ChristineLeDuc\\ChristineLeDuc.csproj",
       "projectName": "ChristineLeDuc",
-      "projectPath": "D:\\ChristineLeDuc\\ChristineLeDuc\\ChristineLeDuc.csproj",
+      "projectPath": "D:\\ChristineLeDucFinal\\ChristineLeDuc\\ChristineLeDuc.csproj",
       "packagesPath": "C:\\Users\\Robbe\\.nuget\\packages\\",
-      "outputPath": "D:\\ChristineLeDuc\\ChristineLeDuc\\obj\\wappublish\\win-x64\\",
+      "outputPath": "D:\\ChristineLeDucFinal\\ChristineLeDuc\\obj\\wappublish\\win-x64\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Robbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -906,11 +906,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\ChristineLeDuc\\Datalayer\\Datalayer.csproj": {
-              "projectPath": "D:\\ChristineLeDuc\\Datalayer\\Datalayer.csproj"
+            "D:\\ChristineLeDucFinal\\Datalayer\\Datalayer.csproj": {
+              "projectPath": "D:\\ChristineLeDucFinal\\Datalayer\\Datalayer.csproj"
             },
-            "D:\\ChristineLeDuc\\Logiclayer\\Logiclayer.csproj": {
-              "projectPath": "D:\\ChristineLeDuc\\Logiclayer\\Logiclayer.csproj"
+            "D:\\ChristineLeDucFinal\\Logiclayer\\Logiclayer.csproj": {
+              "projectPath": "D:\\ChristineLeDucFinal\\Logiclayer\\Logiclayer.csproj"
             }
           }
         }

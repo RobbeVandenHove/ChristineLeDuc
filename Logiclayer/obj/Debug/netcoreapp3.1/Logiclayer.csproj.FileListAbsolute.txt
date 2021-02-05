@@ -12,3 +12,17 @@ D:\ChristineLeDuc\Logiclayer\bin\Debug\netcoreapp3.1\Globals.pdb
 D:\ChristineLeDuc\Logiclayer\obj\Debug\netcoreapp3.1\Logiclayer.csproj.CopyComplete
 D:\ChristineLeDuc\Logiclayer\obj\Debug\netcoreapp3.1\Logiclayer.dll
 D:\ChristineLeDuc\Logiclayer\obj\Debug\netcoreapp3.1\Logiclayer.pdb
+D:\ChristineLeDucFinal\Logiclayer\bin\Debug\netcoreapp3.1\Logiclayer.deps.json
+D:\ChristineLeDucFinal\Logiclayer\bin\Debug\netcoreapp3.1\Logiclayer.dll
+D:\ChristineLeDucFinal\Logiclayer\bin\Debug\netcoreapp3.1\Logiclayer.pdb
+D:\ChristineLeDucFinal\Logiclayer\bin\Debug\netcoreapp3.1\Datalayer.dll
+D:\ChristineLeDucFinal\Logiclayer\bin\Debug\netcoreapp3.1\Globals.dll
+D:\ChristineLeDucFinal\Logiclayer\bin\Debug\netcoreapp3.1\Datalayer.pdb
+D:\ChristineLeDucFinal\Logiclayer\bin\Debug\netcoreapp3.1\Globals.pdb
+D:\ChristineLeDucFinal\Logiclayer\obj\Debug\netcoreapp3.1\Logiclayer.csprojAssemblyReference.cache
+D:\ChristineLeDucFinal\Logiclayer\obj\Debug\netcoreapp3.1\Logiclayer.AssemblyInfoInputs.cache
+D:\ChristineLeDucFinal\Logiclayer\obj\Debug\netcoreapp3.1\Logiclayer.AssemblyInfo.cs
+D:\ChristineLeDucFinal\Logiclayer\obj\Debug\netcoreapp3.1\Logiclayer.csproj.CoreCompileInputs.cache
+D:\ChristineLeDucFinal\Logiclayer\obj\Debug\netcoreapp3.1\Logiclayer.csproj.CopyComplete
+D:\ChristineLeDucFinal\Logiclayer\obj\Debug\netcoreapp3.1\Logiclayer.dll
+D:\ChristineLeDucFinal\Logiclayer\obj\Debug\netcoreapp3.1\Logiclayer.pdb

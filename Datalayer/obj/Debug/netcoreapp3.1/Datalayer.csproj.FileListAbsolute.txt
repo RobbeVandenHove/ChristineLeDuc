@@ -10,3 +10,15 @@ D:\ChristineLeDuc\Datalayer\bin\Debug\netcoreapp3.1\Globals.pdb
 D:\ChristineLeDuc\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csproj.CopyComplete
 D:\ChristineLeDuc\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.dll
 D:\ChristineLeDuc\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.pdb
+D:\ChristineLeDucFinal\Datalayer\bin\Debug\netcoreapp3.1\Datalayer.deps.json
+D:\ChristineLeDucFinal\Datalayer\bin\Debug\netcoreapp3.1\Datalayer.dll
+D:\ChristineLeDucFinal\Datalayer\bin\Debug\netcoreapp3.1\Datalayer.pdb
+D:\ChristineLeDucFinal\Datalayer\bin\Debug\netcoreapp3.1\Globals.dll
+D:\ChristineLeDucFinal\Datalayer\bin\Debug\netcoreapp3.1\Globals.pdb
+D:\ChristineLeDucFinal\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csprojAssemblyReference.cache
+D:\ChristineLeDucFinal\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.AssemblyInfoInputs.cache
+D:\ChristineLeDucFinal\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.AssemblyInfo.cs
+D:\ChristineLeDucFinal\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csproj.CoreCompileInputs.cache
+D:\ChristineLeDucFinal\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csproj.CopyComplete
+D:\ChristineLeDucFinal\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.dll
+D:\ChristineLeDucFinal\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.pdb

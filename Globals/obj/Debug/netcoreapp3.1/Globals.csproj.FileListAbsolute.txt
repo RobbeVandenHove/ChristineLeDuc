@@ -7,3 +7,12 @@ D:\ChristineLeDuc\Globals\obj\Debug\netcoreapp3.1\Globals.csproj.CoreCompileInpu
 D:\ChristineLeDuc\Globals\obj\Debug\netcoreapp3.1\Globals.dll
 D:\ChristineLeDuc\Globals\obj\Debug\netcoreapp3.1\Globals.pdb
 D:\ChristineLeDuc\Globals\obj\Debug\netcoreapp3.1\Globals.csprojAssemblyReference.cache
+D:\ChristineLeDucFinal\Globals\bin\Debug\netcoreapp3.1\Globals.deps.json
+D:\ChristineLeDucFinal\Globals\bin\Debug\netcoreapp3.1\Globals.dll
+D:\ChristineLeDucFinal\Globals\bin\Debug\netcoreapp3.1\Globals.pdb
+D:\ChristineLeDucFinal\Globals\obj\Debug\netcoreapp3.1\Globals.csprojAssemblyReference.cache
+D:\ChristineLeDucFinal\Globals\obj\Debug\netcoreapp3.1\Globals.AssemblyInfoInputs.cache
+D:\ChristineLeDucFinal\Globals\obj\Debug\netcoreapp3.1\Globals.AssemblyInfo.cs
+D:\ChristineLeDucFinal\Globals\obj\Debug\netcoreapp3.1\Globals.csproj.CoreCompileInputs.cache
+D:\ChristineLeDucFinal\Globals\obj\Debug\netcoreapp3.1\Globals.dll
+D:\ChristineLeDucFinal\Globals\obj\Debug\netcoreapp3.1\Globals.pdb
