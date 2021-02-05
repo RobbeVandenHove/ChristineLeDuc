@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ChristineLeDuc\\Globals\\Globals.csproj": {}
+    "D:\\ChristineLeDucFinal\\Globals\\Globals.csproj": {}
   },
   "projects": {
-    "D:\\ChristineLeDuc\\Globals\\Globals.csproj": {
+    "D:\\ChristineLeDucFinal\\Globals\\Globals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ChristineLeDuc\\Globals\\Globals.csproj",
+        "projectUniqueName": "D:\\ChristineLeDucFinal\\Globals\\Globals.csproj",
         "projectName": "Globals",
-        "projectPath": "D:\\ChristineLeDuc\\Globals\\Globals.csproj",
+        "projectPath": "D:\\ChristineLeDucFinal\\Globals\\Globals.csproj",
         "packagesPath": "C:\\Users\\Robbe\\.nuget\\packages\\",
-        "outputPath": "D:\\ChristineLeDuc\\Globals\\obj\\",
+        "outputPath": "D:\\ChristineLeDucFinal\\Globals\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Robbe\\AppData\\Roaming\\NuGet\\NuGet.Config",

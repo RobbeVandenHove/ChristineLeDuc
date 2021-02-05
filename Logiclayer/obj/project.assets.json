@@ -682,11 +682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ChristineLeDuc\\Logiclayer\\Logiclayer.csproj",
+      "projectUniqueName": "D:\\ChristineLeDucFinal\\Logiclayer\\Logiclayer.csproj",
       "projectName": "Logiclayer",
-      "projectPath": "D:\\ChristineLeDuc\\Logiclayer\\Logiclayer.csproj",
+      "projectPath": "D:\\ChristineLeDucFinal\\Logiclayer\\Logiclayer.csproj",
       "packagesPath": "C:\\Users\\Robbe\\.nuget\\packages\\",
-      "outputPath": "D:\\ChristineLeDuc\\Logiclayer\\obj\\",
+      "outputPath": "D:\\ChristineLeDucFinal\\Logiclayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Robbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -703,8 +703,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\ChristineLeDuc\\Datalayer\\Datalayer.csproj": {
-              "projectPath": "D:\\ChristineLeDuc\\Datalayer\\Datalayer.csproj"
+            "D:\\ChristineLeDucFinal\\Datalayer\\Datalayer.csproj": {
+              "projectPath": "D:\\ChristineLeDucFinal\\Datalayer\\Datalayer.csproj"
             }
           }
         }

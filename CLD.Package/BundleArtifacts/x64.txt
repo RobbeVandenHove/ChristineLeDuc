@@ -1,0 +1,4 @@
+MainPackage=D:\ChristineLeDuc\CLD.Package\bin\x64\Release\CLD.Package_1.0.3.0_x64.msix
+SymbolPackage=D:\ChristineLeDuc\CLD.Package\obj\x64\Release\Symbols\CLD.Package_1.0.3.0_x64.appxsym
+ResourcePack=D:\ChristineLeDuc\CLD.Package\bin\x64\Release\CLD.Package_1.0.3.0_scale-100.msix
+ResourcePack=D:\ChristineLeDuc\CLD.Package\bin\x64\Release\CLD.Package_1.0.3.0_scale-400.msix

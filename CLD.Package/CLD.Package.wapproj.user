@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>D:\ChristineLeDuc\ChristineLeDuc\Resources\ExistingComplaint.png</Source>
+    <SmallTileSource>D:\ChristineLeDuc\ChristineLeDuc\Resources\ExistingComplaint.png</SmallTileSource>
+    <MediumTileSource>D:\ChristineLeDuc\ChristineLeDuc\Resources\ExistingComplaint.png</MediumTileSource>
+    <WideTileSource>D:\ChristineLeDuc\ChristineLeDuc\Resources\ExistingComplaint.png</WideTileSource>
+    <LargeTileSource>D:\ChristineLeDuc\ChristineLeDuc\Resources\ExistingComplaint.png</LargeTileSource>
+    <AppIconSource>D:\ChristineLeDuc\ChristineLeDuc\Resources\ExistingComplaint.png</AppIconSource>
+    <SplashScreenSource>D:\ChristineLeDuc\ChristineLeDuc\Resources\ExistingComplaint.png</SplashScreenSource>
+    <PackageLogoSource>D:\ChristineLeDuc\ChristineLeDuc\Resources\ExistingComplaint.png</PackageLogoSource>
+    <BadgeLogoSource>D:\ChristineLeDuc\ChristineLeDuc\Resources\ExistingComplaint.png</BadgeLogoSource>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>True</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+</Project>

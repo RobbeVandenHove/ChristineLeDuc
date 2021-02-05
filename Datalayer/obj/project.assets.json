@@ -664,11 +664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ChristineLeDuc\\Datalayer\\Datalayer.csproj",
+      "projectUniqueName": "D:\\ChristineLeDucFinal\\Datalayer\\Datalayer.csproj",
       "projectName": "Datalayer",
-      "projectPath": "D:\\ChristineLeDuc\\Datalayer\\Datalayer.csproj",
+      "projectPath": "D:\\ChristineLeDucFinal\\Datalayer\\Datalayer.csproj",
       "packagesPath": "C:\\Users\\Robbe\\.nuget\\packages\\",
-      "outputPath": "D:\\ChristineLeDuc\\Datalayer\\obj\\",
+      "outputPath": "D:\\ChristineLeDucFinal\\Datalayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Robbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -685,8 +685,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\ChristineLeDuc\\Globals\\Globals.csproj": {
-              "projectPath": "D:\\ChristineLeDuc\\Globals\\Globals.csproj"
+            "D:\\ChristineLeDucFinal\\Globals\\Globals.csproj": {
+              "projectPath": "D:\\ChristineLeDucFinal\\Globals\\Globals.csproj"
             }
           }
         }

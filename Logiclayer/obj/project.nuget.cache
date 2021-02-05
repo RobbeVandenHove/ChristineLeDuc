@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5rCvgSVsViw461YltYp66CZFBsWTxvZO6KBVvUH0EFNia5CfwB4C7UfFnufcY+fGHLAMN5U1nJOfVrDpwzHoQw==",
+  "dgSpecHash": "AblgvvqEcPeJx1vDI4G1TfrX/irIsRPiizRZ4koC7MB8SqXSAxO5XbWEF+0nuUv85UzmzreYCzcqSccVC/dSdQ==",
   "success": true,
-  "projectFilePath": "D:\\ChristineLeDuc\\Logiclayer\\Logiclayer.csproj",
+  "projectFilePath": "D:\\ChristineLeDucFinal\\Logiclayer\\Logiclayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Robbe\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Robbe\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

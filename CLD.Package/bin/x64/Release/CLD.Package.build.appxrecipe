@@ -1,0 +1,1679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-ARHBVB9</Machine>
+    <WindowsUser>Robbe</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>07a7cc8c-9b1f-42fe-b8d8-1b10981fee18</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Robbe Van den Hove</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\ChristineLeDuc\CLD.Package\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>D:\ChristineLeDuc\CLD.Package\bin\x64\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\ChristineLeDuc\CLD.Package\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\BadgeLogo.scale-100.png">
+      <PackagePath>Images\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\BadgeLogo.scale-200.png">
+      <PackagePath>Images\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\BadgeLogo.scale-400.png">
+      <PackagePath>Images\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\LargeTile.scale-100.png">
+      <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\LargeTile.scale-200.png">
+      <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\LargeTile.scale-400.png">
+      <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\SmallTile.scale-100.png">
+      <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\SmallTile.scale-200.png">
+      <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\SmallTile.scale-400.png">
+      <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\CLD.Package\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\ChristineLeDuc\obj\x64\Release\netcoreapp3.1\win-x64\Msix\ChristineLeDuc.deps.json">
+      <PackagePath>ChristineLeDuc\ChristineLeDuc.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\ChristineLeDuc\obj\x64\Release\netcoreapp3.1\win-x64\apphost.exe">
+      <PackagePath>ChristineLeDuc\ChristineLeDuc.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\ChristineLeDuc\obj\x64\Release\netcoreapp3.1\win-x64\ChristineLeDuc.dll">
+      <PackagePath>ChristineLeDuc\ChristineLeDuc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\ChristineLeDuc\bin\x64\Release\netcoreapp3.1\win-x64\ChristineLeDuc.runtimeconfig.json">
+      <PackagePath>ChristineLeDuc\ChristineLeDuc.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\Microsoft.CSharp.dll">
+      <PackagePath>ChristineLeDuc\Microsoft.CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\Microsoft.VisualBasic.Core.dll">
+      <PackagePath>ChristineLeDuc\Microsoft.VisualBasic.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\Microsoft.VisualBasic.dll">
+      <PackagePath>ChristineLeDuc\Microsoft.VisualBasic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\Microsoft.Win32.Primitives.dll">
+      <PackagePath>ChristineLeDuc\Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.AppContext.dll">
+      <PackagePath>ChristineLeDuc\System.AppContext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Buffers.dll">
+      <PackagePath>ChristineLeDuc\System.Buffers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Collections.Concurrent.dll">
+      <PackagePath>ChristineLeDuc\System.Collections.Concurrent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Collections.Immutable.dll">
+      <PackagePath>ChristineLeDuc\System.Collections.Immutable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Collections.NonGeneric.dll">
+      <PackagePath>ChristineLeDuc\System.Collections.NonGeneric.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Collections.Specialized.dll">
+      <PackagePath>ChristineLeDuc\System.Collections.Specialized.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Collections.dll">
+      <PackagePath>ChristineLeDuc\System.Collections.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.ComponentModel.Annotations.dll">
+      <PackagePath>ChristineLeDuc\System.ComponentModel.Annotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>ChristineLeDuc\System.ComponentModel.DataAnnotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>ChristineLeDuc\System.ComponentModel.EventBasedAsync.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.ComponentModel.Primitives.dll">
+      <PackagePath>ChristineLeDuc\System.ComponentModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>ChristineLeDuc\System.ComponentModel.TypeConverter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.ComponentModel.dll">
+      <PackagePath>ChristineLeDuc\System.ComponentModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Configuration.dll">
+      <PackagePath>ChristineLeDuc\System.Configuration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Console.dll">
+      <PackagePath>ChristineLeDuc\System.Console.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Core.dll">
+      <PackagePath>ChristineLeDuc\System.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Data.Common.dll">
+      <PackagePath>ChristineLeDuc\System.Data.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Data.DataSetExtensions.dll">
+      <PackagePath>ChristineLeDuc\System.Data.DataSetExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Data.dll">
+      <PackagePath>ChristineLeDuc\System.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.Contracts.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.Contracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.Debug.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.Debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.FileVersionInfo.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.FileVersionInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.Process.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.Process.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.StackTrace.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.StackTrace.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.TextWriterTraceListener.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.Tools.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.Tools.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.TraceSource.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.TraceSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.Tracing.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.Tracing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Drawing.Primitives.dll">
+      <PackagePath>ChristineLeDuc\System.Drawing.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Dynamic.Runtime.dll">
+      <PackagePath>ChristineLeDuc\System.Dynamic.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Globalization.Calendars.dll">
+      <PackagePath>ChristineLeDuc\System.Globalization.Calendars.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Globalization.Extensions.dll">
+      <PackagePath>ChristineLeDuc\System.Globalization.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Globalization.dll">
+      <PackagePath>ChristineLeDuc\System.Globalization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.Compression.Brotli.dll">
+      <PackagePath>ChristineLeDuc\System.IO.Compression.Brotli.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.Compression.FileSystem.dll">
+      <PackagePath>ChristineLeDuc\System.IO.Compression.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.Compression.ZipFile.dll">
+      <PackagePath>ChristineLeDuc\System.IO.Compression.ZipFile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.Compression.dll">
+      <PackagePath>ChristineLeDuc\System.IO.Compression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.FileSystem.AccessControl.dll">
+      <PackagePath>ChristineLeDuc\System.IO.FileSystem.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.FileSystem.DriveInfo.dll">
+      <PackagePath>ChristineLeDuc\System.IO.FileSystem.DriveInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>ChristineLeDuc\System.IO.FileSystem.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.FileSystem.Watcher.dll">
+      <PackagePath>ChristineLeDuc\System.IO.FileSystem.Watcher.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.FileSystem.dll">
+      <PackagePath>ChristineLeDuc\System.IO.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.IsolatedStorage.dll">
+      <PackagePath>ChristineLeDuc\System.IO.IsolatedStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>ChristineLeDuc\System.IO.MemoryMappedFiles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.Pipes.AccessControl.dll">
+      <PackagePath>ChristineLeDuc\System.IO.Pipes.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.Pipes.dll">
+      <PackagePath>ChristineLeDuc\System.IO.Pipes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>ChristineLeDuc\System.IO.UnmanagedMemoryStream.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.dll">
+      <PackagePath>ChristineLeDuc\System.IO.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Linq.Expressions.dll">
+      <PackagePath>ChristineLeDuc\System.Linq.Expressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Linq.Parallel.dll">
+      <PackagePath>ChristineLeDuc\System.Linq.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Linq.Queryable.dll">
+      <PackagePath>ChristineLeDuc\System.Linq.Queryable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Linq.dll">
+      <PackagePath>ChristineLeDuc\System.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Memory.dll">
+      <PackagePath>ChristineLeDuc\System.Memory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.Http.dll">
+      <PackagePath>ChristineLeDuc\System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.HttpListener.dll">
+      <PackagePath>ChristineLeDuc\System.Net.HttpListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.Mail.dll">
+      <PackagePath>ChristineLeDuc\System.Net.Mail.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.NameResolution.dll">
+      <PackagePath>ChristineLeDuc\System.Net.NameResolution.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.NetworkInformation.dll">
+      <PackagePath>ChristineLeDuc\System.Net.NetworkInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.Ping.dll">
+      <PackagePath>ChristineLeDuc\System.Net.Ping.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.Primitives.dll">
+      <PackagePath>ChristineLeDuc\System.Net.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.Requests.dll">
+      <PackagePath>ChristineLeDuc\System.Net.Requests.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.Security.dll">
+      <PackagePath>ChristineLeDuc\System.Net.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.ServicePoint.dll">
+      <PackagePath>ChristineLeDuc\System.Net.ServicePoint.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.Sockets.dll">
+      <PackagePath>ChristineLeDuc\System.Net.Sockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.WebClient.dll">
+      <PackagePath>ChristineLeDuc\System.Net.WebClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.WebHeaderCollection.dll">
+      <PackagePath>ChristineLeDuc\System.Net.WebHeaderCollection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.WebProxy.dll">
+      <PackagePath>ChristineLeDuc\System.Net.WebProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.WebSockets.Client.dll">
+      <PackagePath>ChristineLeDuc\System.Net.WebSockets.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.WebSockets.dll">
+      <PackagePath>ChristineLeDuc\System.Net.WebSockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Net.dll">
+      <PackagePath>ChristineLeDuc\System.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Numerics.Vectors.dll">
+      <PackagePath>ChristineLeDuc\System.Numerics.Vectors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Numerics.dll">
+      <PackagePath>ChristineLeDuc\System.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.ObjectModel.dll">
+      <PackagePath>ChristineLeDuc\System.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Private.DataContractSerialization.dll">
+      <PackagePath>ChristineLeDuc\System.Private.DataContractSerialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Private.Uri.dll">
+      <PackagePath>ChristineLeDuc\System.Private.Uri.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Private.Xml.Linq.dll">
+      <PackagePath>ChristineLeDuc\System.Private.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Private.Xml.dll">
+      <PackagePath>ChristineLeDuc\System.Private.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Reflection.DispatchProxy.dll">
+      <PackagePath>ChristineLeDuc\System.Reflection.DispatchProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>ChristineLeDuc\System.Reflection.Emit.ILGeneration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>ChristineLeDuc\System.Reflection.Emit.Lightweight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Reflection.Emit.dll">
+      <PackagePath>ChristineLeDuc\System.Reflection.Emit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Reflection.Extensions.dll">
+      <PackagePath>ChristineLeDuc\System.Reflection.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Reflection.Metadata.dll">
+      <PackagePath>ChristineLeDuc\System.Reflection.Metadata.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Reflection.Primitives.dll">
+      <PackagePath>ChristineLeDuc\System.Reflection.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Reflection.TypeExtensions.dll">
+      <PackagePath>ChristineLeDuc\System.Reflection.TypeExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Reflection.dll">
+      <PackagePath>ChristineLeDuc\System.Reflection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Resources.Reader.dll">
+      <PackagePath>ChristineLeDuc\System.Resources.Reader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Resources.ResourceManager.dll">
+      <PackagePath>ChristineLeDuc\System.Resources.ResourceManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Resources.Writer.dll">
+      <PackagePath>ChristineLeDuc\System.Resources.Writer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.CompilerServices.VisualC.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.CompilerServices.VisualC.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.Extensions.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.Handles.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.Handles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.InteropServices.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.InteropServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.Intrinsics.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.Intrinsics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.Loader.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.Numerics.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.Serialization.Formatters.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.Serialization.Json.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.Serialization.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.Serialization.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.Serialization.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.Serialization.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Runtime.dll">
+      <PackagePath>ChristineLeDuc\System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Claims.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Claims.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Cryptography.Algorithms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Cryptography.Cng.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Cryptography.Cng.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Cryptography.Csp.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Cryptography.Csp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Cryptography.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Cryptography.OpenSsl.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Cryptography.OpenSsl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Cryptography.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Cryptography.X509Certificates.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Principal.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Principal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.SecureString.dll">
+      <PackagePath>ChristineLeDuc\System.Security.SecureString.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.dll">
+      <PackagePath>ChristineLeDuc\System.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.ServiceModel.Web.dll">
+      <PackagePath>ChristineLeDuc\System.ServiceModel.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.ServiceProcess.dll">
+      <PackagePath>ChristineLeDuc\System.ServiceProcess.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll">
+      <PackagePath>ChristineLeDuc\System.Text.Encoding.CodePages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Text.Encoding.Extensions.dll">
+      <PackagePath>ChristineLeDuc\System.Text.Encoding.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Text.Encoding.dll">
+      <PackagePath>ChristineLeDuc\System.Text.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Text.Encodings.Web.dll">
+      <PackagePath>ChristineLeDuc\System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Text.Json.dll">
+      <PackagePath>ChristineLeDuc\System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Text.RegularExpressions.dll">
+      <PackagePath>ChristineLeDuc\System.Text.RegularExpressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.Channels.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.Channels.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.Overlapped.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.Overlapped.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.Tasks.Dataflow.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.Tasks.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.Tasks.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.Thread.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.Thread.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.ThreadPool.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.ThreadPool.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.Timer.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.Timer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Transactions.Local.dll">
+      <PackagePath>ChristineLeDuc\System.Transactions.Local.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Transactions.dll">
+      <PackagePath>ChristineLeDuc\System.Transactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.ValueTuple.dll">
+      <PackagePath>ChristineLeDuc\System.ValueTuple.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Web.HttpUtility.dll">
+      <PackagePath>ChristineLeDuc\System.Web.HttpUtility.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Web.dll">
+      <PackagePath>ChristineLeDuc\System.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Windows.dll">
+      <PackagePath>ChristineLeDuc\System.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Xml.Linq.dll">
+      <PackagePath>ChristineLeDuc\System.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Xml.ReaderWriter.dll">
+      <PackagePath>ChristineLeDuc\System.Xml.ReaderWriter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Xml.Serialization.dll">
+      <PackagePath>ChristineLeDuc\System.Xml.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Xml.XDocument.dll">
+      <PackagePath>ChristineLeDuc\System.Xml.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Xml.XPath.XDocument.dll">
+      <PackagePath>ChristineLeDuc\System.Xml.XPath.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Xml.XPath.dll">
+      <PackagePath>ChristineLeDuc\System.Xml.XPath.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Xml.XmlDocument.dll">
+      <PackagePath>ChristineLeDuc\System.Xml.XmlDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Xml.XmlSerializer.dll">
+      <PackagePath>ChristineLeDuc\System.Xml.XmlSerializer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Xml.dll">
+      <PackagePath>ChristineLeDuc\System.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.dll">
+      <PackagePath>ChristineLeDuc\System.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\mscorlib.dll">
+      <PackagePath>ChristineLeDuc\mscorlib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\netstandard.dll">
+      <PackagePath>ChristineLeDuc\netstandard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\Microsoft.DiaSymReader.Native.amd64.dll">
+      <PackagePath>ChristineLeDuc\Microsoft.DiaSymReader.Native.amd64.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\SOS_README.md">
+      <PackagePath>ChristineLeDuc\SOS_README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\System.Private.CoreLib.dll">
+      <PackagePath>ChristineLeDuc\System.Private.CoreLib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-console-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-console-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-datetime-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-datetime-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-debug-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-debug-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-errorhandling-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-errorhandling-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-file-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-file-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-file-l1-2-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-file-l1-2-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-file-l2-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-file-l2-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-handle-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-handle-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-heap-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-heap-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-interlocked-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-interlocked-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-libraryloader-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-libraryloader-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-localization-l1-2-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-localization-l1-2-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-memory-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-memory-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-namedpipe-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-namedpipe-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-processenvironment-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-processenvironment-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-processthreads-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-processthreads-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-processthreads-l1-1-1.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-processthreads-l1-1-1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-profile-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-profile-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-rtlsupport-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-rtlsupport-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-string-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-string-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-synch-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-synch-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-synch-l1-2-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-synch-l1-2-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-sysinfo-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-sysinfo-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-timezone-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-timezone-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-core-util-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-core-util-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-conio-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-conio-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-convert-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-convert-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-environment-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-environment-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-filesystem-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-filesystem-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-heap-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-heap-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-locale-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-locale-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-math-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-math-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-multibyte-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-multibyte-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-private-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-private-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-process-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-process-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-runtime-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-runtime-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-stdio-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-stdio-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-string-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-string-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-time-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-time-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\api-ms-win-crt-utility-l1-1-0.dll">
+      <PackagePath>ChristineLeDuc\api-ms-win-crt-utility-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\clrcompression.dll">
+      <PackagePath>ChristineLeDuc\clrcompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\clretwrc.dll">
+      <PackagePath>ChristineLeDuc\clretwrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\clrjit.dll">
+      <PackagePath>ChristineLeDuc\clrjit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\coreclr.dll">
+      <PackagePath>ChristineLeDuc\coreclr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\dbgshim.dll">
+      <PackagePath>ChristineLeDuc\dbgshim.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\hostfxr.dll">
+      <PackagePath>ChristineLeDuc\hostfxr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\hostpolicy.dll">
+      <PackagePath>ChristineLeDuc\hostpolicy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\mscordaccore.dll">
+      <PackagePath>ChristineLeDuc\mscordaccore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\mscordaccore_amd64_amd64_4.700.20.51601.dll">
+      <PackagePath>ChristineLeDuc\mscordaccore_amd64_amd64_4.700.20.51601.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\mscordbi.dll">
+      <PackagePath>ChristineLeDuc\mscordbi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\mscorrc.debug.dll">
+      <PackagePath>ChristineLeDuc\mscorrc.debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\mscorrc.dll">
+      <PackagePath>ChristineLeDuc\mscorrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.netcore.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\ucrtbase.dll">
+      <PackagePath>ChristineLeDuc\ucrtbase.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\Accessibility.dll">
+      <PackagePath>ChristineLeDuc\Accessibility.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\DirectWriteForwarder.dll">
+      <PackagePath>ChristineLeDuc\DirectWriteForwarder.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\Microsoft.Win32.Registry.AccessControl.dll">
+      <PackagePath>ChristineLeDuc\Microsoft.Win32.Registry.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationCore.dll">
+      <PackagePath>ChristineLeDuc\PresentationCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework-SystemCore.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework-SystemCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework-SystemData.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework-SystemData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework-SystemDrawing.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework-SystemDrawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework-SystemXml.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework-SystemXml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework-SystemXmlLinq.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework-SystemXmlLinq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework.Aero.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework.Aero.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework.Aero2.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework.Aero2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework.AeroLite.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework.AeroLite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework.Classic.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework.Classic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework.Luna.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework.Luna.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework.Royale.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework.Royale.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationFramework.dll">
+      <PackagePath>ChristineLeDuc\PresentationFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\PresentationUI.dll">
+      <PackagePath>ChristineLeDuc\PresentationUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ReachFramework.dll">
+      <PackagePath>ChristineLeDuc\ReachFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.CodeDom.dll">
+      <PackagePath>ChristineLeDuc\System.CodeDom.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Design.dll">
+      <PackagePath>ChristineLeDuc\System.Design.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Diagnostics.EventLog.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.EventLog.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.DirectoryServices.dll">
+      <PackagePath>ChristineLeDuc\System.DirectoryServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Drawing.Design.dll">
+      <PackagePath>ChristineLeDuc\System.Drawing.Design.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Drawing.dll">
+      <PackagePath>ChristineLeDuc\System.Drawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.IO.Packaging.dll">
+      <PackagePath>ChristineLeDuc\System.IO.Packaging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Printing.dll">
+      <PackagePath>ChristineLeDuc\System.Printing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Resources.Extensions.dll">
+      <PackagePath>ChristineLeDuc\System.Resources.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Cryptography.Pkcs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Security.Cryptography.Xml.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Cryptography.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Threading.AccessControl.dll">
+      <PackagePath>ChristineLeDuc\System.Threading.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Windows.Controls.Ribbon.dll">
+      <PackagePath>ChristineLeDuc\System.Windows.Controls.Ribbon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Windows.Forms.Design.Editors.dll">
+      <PackagePath>ChristineLeDuc\System.Windows.Forms.Design.Editors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Windows.Forms.Design.dll">
+      <PackagePath>ChristineLeDuc\System.Windows.Forms.Design.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Windows.Forms.dll">
+      <PackagePath>ChristineLeDuc\System.Windows.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Windows.Input.Manipulations.dll">
+      <PackagePath>ChristineLeDuc\System.Windows.Input.Manipulations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Windows.Presentation.dll">
+      <PackagePath>ChristineLeDuc\System.Windows.Presentation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\System.Xaml.dll">
+      <PackagePath>ChristineLeDuc\System.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\UIAutomationClient.dll">
+      <PackagePath>ChristineLeDuc\UIAutomationClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\UIAutomationClientSideProviders.dll">
+      <PackagePath>ChristineLeDuc\UIAutomationClientSideProviders.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\UIAutomationProvider.dll">
+      <PackagePath>ChristineLeDuc\UIAutomationProvider.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\UIAutomationTypes.dll">
+      <PackagePath>ChristineLeDuc\UIAutomationTypes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\WindowsBase.dll">
+      <PackagePath>ChristineLeDuc\WindowsBase.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\WindowsFormsIntegration.dll">
+      <PackagePath>ChristineLeDuc\WindowsFormsIntegration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\cs\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\cs\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\de\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\de\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\de\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\de\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\de\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\de\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\de\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\de\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\de\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\de\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\de\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\de\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\de\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\de\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\de\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\de\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\de\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\de\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\es\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\es\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\es\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\es\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\es\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\es\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\es\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\es\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\es\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\es\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\es\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\es\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\es\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\es\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\es\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\es\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\es\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\es\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\fr\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\fr\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\it\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\it\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\it\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\it\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\it\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\it\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\it\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\it\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\it\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\it\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\it\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\it\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\it\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\it\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\it\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\it\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\it\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\it\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ja\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\ja\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ko\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\ko\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pl\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\pl\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\pt-BR\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\pt-BR\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\ru\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\ru\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\tr\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\tr\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hans\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hans\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\PresentationCore.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\PresentationCore.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\PresentationFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\PresentationFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\PresentationUI.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\PresentationUI.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\ReachFramework.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\ReachFramework.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\System.Printing.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\System.Printing.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\System.Windows.Controls.Ribbon.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\System.Windows.Controls.Ribbon.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\System.Windows.Forms.Design.Editors.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\System.Windows.Forms.Design.Editors.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\System.Windows.Forms.Design.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\System.Windows.Forms.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\System.Windows.Forms.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\System.Windows.Input.Manipulations.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\System.Windows.Input.Manipulations.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\System.Xaml.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\System.Xaml.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\UIAutomationClient.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\UIAutomationClient.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\UIAutomationClientSideProviders.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\UIAutomationClientSideProviders.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\UIAutomationProvider.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\UIAutomationProvider.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\UIAutomationTypes.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\UIAutomationTypes.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\WindowsBase.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\WindowsBase.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\lib\netcoreapp3.1\zh-Hant\WindowsFormsIntegration.resources.dll">
+      <PackagePath>ChristineLeDuc\zh-Hant\WindowsFormsIntegration.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\D3DCompiler_47_cor3.dll">
+      <PackagePath>ChristineLeDuc\D3DCompiler_47_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\PenImc_cor3.dll">
+      <PackagePath>ChristineLeDuc\PenImc_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\PresentationNative_cor3.dll">
+      <PackagePath>ChristineLeDuc\PresentationNative_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\vcruntime140_cor3.dll">
+      <PackagePath>ChristineLeDuc\vcruntime140_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\3.1.10\runtimes\win-x64\native\wpfgfx_cor3.dll">
+      <PackagePath>ChristineLeDuc\wpfgfx_cor3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.win32.registry\5.0.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll">
+      <PackagePath>ChristineLeDuc\Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\microsoft.win32.systemevents\5.0.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>ChristineLeDuc\Microsoft.Win32.SystemEvents.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\system.configuration.configurationmanager\5.0.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>ChristineLeDuc\System.Configuration.ConfigurationManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\system.data.oledb\5.0.0\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll">
+      <PackagePath>ChristineLeDuc\System.Data.OleDb.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\system.diagnostics.performancecounter\5.0.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll">
+      <PackagePath>ChristineLeDuc\System.Diagnostics.PerformanceCounter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\system.drawing.common\5.0.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll">
+      <PackagePath>ChristineLeDuc\System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\system.security.accesscontrol\5.0.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll">
+      <PackagePath>ChristineLeDuc\System.Security.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\system.security.cryptography.protecteddata\5.0.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Cryptography.ProtectedData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\system.security.permissions\5.0.0\lib\netcoreapp3.0\System.Security.Permissions.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\system.security.principal.windows\5.0.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll">
+      <PackagePath>ChristineLeDuc\System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robbe\.nuget\packages\system.windows.extensions\5.0.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll">
+      <PackagePath>ChristineLeDuc\System.Windows.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\Datalayer\bin\Release\netcoreapp3.1\Datalayer.dll">
+      <PackagePath>ChristineLeDuc\Datalayer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\Globals\bin\Release\netcoreapp3.1\Globals.dll">
+      <PackagePath>ChristineLeDuc\Globals.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ChristineLeDuc\Logiclayer\bin\Release\netcoreapp3.1\Logiclayer.dll">
+      <PackagePath>ChristineLeDuc\Logiclayer.dll</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
