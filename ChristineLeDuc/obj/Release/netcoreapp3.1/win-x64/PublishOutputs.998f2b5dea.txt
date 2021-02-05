@@ -1,0 +1,5 @@
+D:\ChristineLeDuc\ChristineLeDuc\bin\Release\netcoreapp3.1\publish\ChristineLeDuc.pdb
+D:\ChristineLeDuc\ChristineLeDuc\bin\Release\netcoreapp3.1\publish\Datalayer.pdb
+D:\ChristineLeDuc\ChristineLeDuc\bin\Release\netcoreapp3.1\publish\Logiclayer.pdb
+D:\ChristineLeDuc\ChristineLeDuc\bin\Release\netcoreapp3.1\publish\Globals.pdb
+D:\ChristineLeDuc\ChristineLeDuc\bin\Release\netcoreapp3.1\publish\ChristineLeDuc.exe

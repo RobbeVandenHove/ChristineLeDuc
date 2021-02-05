@@ -1,0 +1,9 @@
+D:\ChristineLeDuc\Globals\bin\Release\netcoreapp3.1\Globals.deps.json
+D:\ChristineLeDuc\Globals\bin\Release\netcoreapp3.1\Globals.dll
+D:\ChristineLeDuc\Globals\bin\Release\netcoreapp3.1\Globals.pdb
+D:\ChristineLeDuc\Globals\obj\Release\netcoreapp3.1\Globals.csprojAssemblyReference.cache
+D:\ChristineLeDuc\Globals\obj\Release\netcoreapp3.1\Globals.AssemblyInfoInputs.cache
+D:\ChristineLeDuc\Globals\obj\Release\netcoreapp3.1\Globals.AssemblyInfo.cs
+D:\ChristineLeDuc\Globals\obj\Release\netcoreapp3.1\Globals.csproj.CoreCompileInputs.cache
+D:\ChristineLeDuc\Globals\obj\Release\netcoreapp3.1\Globals.dll
+D:\ChristineLeDuc\Globals\obj\Release\netcoreapp3.1\Globals.pdb

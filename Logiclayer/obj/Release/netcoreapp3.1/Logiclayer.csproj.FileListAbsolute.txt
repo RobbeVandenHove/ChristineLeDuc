@@ -1,0 +1,14 @@
+D:\ChristineLeDuc\Logiclayer\bin\Release\netcoreapp3.1\Logiclayer.deps.json
+D:\ChristineLeDuc\Logiclayer\bin\Release\netcoreapp3.1\Logiclayer.dll
+D:\ChristineLeDuc\Logiclayer\bin\Release\netcoreapp3.1\Logiclayer.pdb
+D:\ChristineLeDuc\Logiclayer\bin\Release\netcoreapp3.1\Datalayer.dll
+D:\ChristineLeDuc\Logiclayer\bin\Release\netcoreapp3.1\Globals.dll
+D:\ChristineLeDuc\Logiclayer\bin\Release\netcoreapp3.1\Datalayer.pdb
+D:\ChristineLeDuc\Logiclayer\bin\Release\netcoreapp3.1\Globals.pdb
+D:\ChristineLeDuc\Logiclayer\obj\Release\netcoreapp3.1\Logiclayer.csprojAssemblyReference.cache
+D:\ChristineLeDuc\Logiclayer\obj\Release\netcoreapp3.1\Logiclayer.AssemblyInfoInputs.cache
+D:\ChristineLeDuc\Logiclayer\obj\Release\netcoreapp3.1\Logiclayer.AssemblyInfo.cs
+D:\ChristineLeDuc\Logiclayer\obj\Release\netcoreapp3.1\Logiclayer.csproj.CoreCompileInputs.cache
+D:\ChristineLeDuc\Logiclayer\obj\Release\netcoreapp3.1\Logiclayer.csproj.CopyComplete
+D:\ChristineLeDuc\Logiclayer\obj\Release\netcoreapp3.1\Logiclayer.dll
+D:\ChristineLeDuc\Logiclayer\obj\Release\netcoreapp3.1\Logiclayer.pdb

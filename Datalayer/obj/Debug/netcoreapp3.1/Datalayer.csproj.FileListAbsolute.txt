@@ -1,0 +1,12 @@
+D:\ChristineLeDuc\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csprojAssemblyReference.cache
+D:\ChristineLeDuc\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.AssemblyInfoInputs.cache
+D:\ChristineLeDuc\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.AssemblyInfo.cs
+D:\ChristineLeDuc\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csproj.CoreCompileInputs.cache
+D:\ChristineLeDuc\Datalayer\bin\Debug\netcoreapp3.1\Datalayer.deps.json
+D:\ChristineLeDuc\Datalayer\bin\Debug\netcoreapp3.1\Datalayer.dll
+D:\ChristineLeDuc\Datalayer\bin\Debug\netcoreapp3.1\Datalayer.pdb
+D:\ChristineLeDuc\Datalayer\bin\Debug\netcoreapp3.1\Globals.dll
+D:\ChristineLeDuc\Datalayer\bin\Debug\netcoreapp3.1\Globals.pdb
+D:\ChristineLeDuc\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csproj.CopyComplete
+D:\ChristineLeDuc\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.dll
+D:\ChristineLeDuc\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.pdb
