@@ -109,7 +109,7 @@ namespace Logiclayer {
                 db.Crud(cmd);
             } catch(Exception ex) {
                 throw new Exception(ex.Message);
-            }            
+            }
         }
         public int GetLastId() {
             int id = db.GetLastId();

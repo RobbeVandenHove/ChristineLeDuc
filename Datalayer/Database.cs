@@ -156,25 +156,24 @@ namespace Datalayer {
                 try {
                     conn.Open();
                     OleDbDataReader rdr = cmd.ExecuteReader();
-                    while (rdr.Read()) {
-                        result = new Order {
-                            ReferentieNummer = rdr["ReferentieNummer"] == DBNull.Value ? "unknown" : (string)rdr["ReferentieNummer"],
-                            OrderId = rdr["OrderId"] == DBNull.Value ? "unknown" : (string)rdr["OrderId"],
-                            Factuuradres = rdr["Factuuradres"] == DBNull.Value ? "unknown" : (string)rdr["Factuuradres"],
-                            FactuurPostcode = rdr["FactuurPostcode"] == DBNull.Value ? "unknown" : (string)rdr["FactuurPostcode"],
-                            FactuurWoonplaats = rdr["FactuurWoonplaats"] == DBNull.Value ? "unknown" : (string)rdr["FactuurWoonplaats"],
-                            FactuurLand = rdr["FactuurLand"] == DBNull.Value ? "unknown" : (string)rdr["FactuurLand"],
-                            Verzendnaam = rdr["Verzendnaam"] == DBNull.Value ? "unknown" : (string)rdr["Verzendnaam"],
-                            Verzendadres = rdr["Verzendadres"] == DBNull.Value ? "unknown" : (string)rdr["Verzendadres"],
-                            VerzendPostcode = rdr["VerzendPostcode"] == DBNull.Value ? "unknown" : (string)rdr["VerzendPostcode"],
-                            VerzendWoonplaats = rdr["VerzendWoonplaats"] == DBNull.Value ? "unknown" : (string)rdr["VerzendWoonplaats"],
-                            VerzendLand = rdr["VerzendLand"] == DBNull.Value ? "unknown" : (string)rdr["VerzendLand"],
-                            Telefoonnummer = rdr["Telefoonnummer"] == DBNull.Value ? "unknown" : (string)rdr["Telefoonnummer"],
-                            Emailadres = rdr["Emailadres"] == DBNull.Value ? "unknown" : (string)rdr["Emailadres"],
-                            Orderdatum = rdr["Orderdatum"] == DBNull.Value ? "unknown" : (string)rdr["Orderdatum"],
-                            Ordertijd = rdr["Ordertijd"] == DBNull.Value ? "unknown" : (string)rdr["Ordertijd"]
-                        };
-                    }
+                    rdr.Read();
+                    result = new Order {
+                        ReferentieNummer = rdr["ReferentieNummer"] == DBNull.Value ? "unknown" : (string)rdr["ReferentieNummer"],
+                        OrderId = rdr["OrderId"] == DBNull.Value ? "unknown" : (string)rdr["OrderId"],
+                        Factuuradres = rdr["Factuuradres"] == DBNull.Value ? "unknown" : (string)rdr["Factuuradres"],
+                        FactuurPostcode = rdr["FactuurPostcode"] == DBNull.Value ? "unknown" : (string)rdr["FactuurPostcode"],
+                        FactuurWoonplaats = rdr["FactuurWoonplaats"] == DBNull.Value ? "unknown" : (string)rdr["FactuurWoonplaats"],
+                        FactuurLand = rdr["FactuurLand"] == DBNull.Value ? "unknown" : (string)rdr["FactuurLand"],
+                        Verzendnaam = rdr["Verzendnaam"] == DBNull.Value ? "unknown" : (string)rdr["Verzendnaam"],
+                        Verzendadres = rdr["Verzendadres"] == DBNull.Value ? "unknown" : (string)rdr["Verzendadres"],
+                        VerzendPostcode = rdr["VerzendPostcode"] == DBNull.Value ? "unknown" : (string)rdr["VerzendPostcode"],
+                        VerzendWoonplaats = rdr["VerzendWoonplaats"] == DBNull.Value ? "unknown" : (string)rdr["VerzendWoonplaats"],
+                        VerzendLand = rdr["VerzendLand"] == DBNull.Value ? "unknown" : (string)rdr["VerzendLand"],
+                        Telefoonnummer = rdr["Telefoonnummer"] == DBNull.Value ? "unknown" : (string)rdr["Telefoonnummer"],
+                        Emailadres = rdr["Emailadres"] == DBNull.Value ? "unknown" : (string)rdr["Emailadres"],
+                        Orderdatum = rdr["Orderdatum"] == DBNull.Value ? "unknown" : (string)rdr["Orderdatum"],
+                        Ordertijd = rdr["Ordertijd"] == DBNull.Value ? "unknown" : (string)rdr["Ordertijd"]
+                    };
                     conn.Close();
                     conn.Dispose();
                     return result;
@@ -207,7 +206,6 @@ namespace Datalayer {
                     conn.Close();
                     conn.Dispose();
                     return id;
-                    ;
                 }
                 catch (Exception ex) {
                     throw new Exception(ex.Message);
